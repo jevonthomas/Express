@@ -1,0 +1,26 @@
+{
+  "name": "Express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express-hello-world.js",
+  "scripts": {
+    "db:reset": "node db/build-db",
+    "start": "nodemon bin/express101",
+    "test": "nodemon --exec \"mocha --recursive\" -R list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jevonthomas/Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jevonthomas/Express/issues"
+  },
+  "dependencies": {
+    "express": "~4.14.1",
+    "sqlite3": "^3.1.9"
+  },
+  "homepage": "https://github.com/jevonthomas/Express#readme"
+}
